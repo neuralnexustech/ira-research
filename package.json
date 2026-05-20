@@ -1,0 +1,43 @@
+{
+  "name": "ira-research-mcp",
+  "version": "0.1.2",
+  "description": "Next-Gen 3-Layer Browser MCP (Agent -> MCP Server -> Chrome Extension -> Browser)",
+  "main": "dist/server.js",
+  "bin": "dist/server.js",
+  "mcp": {
+    "server": {
+      "command": "npx",
+      "args": [
+        "ira-research-mcp"
+      ],
+      "env": {
+        "IRA_EXTENSION_ID": "YOUR_EXTENSION_ID_HERE"
+      }
+    }
+  },
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -b && node scripts/build.js",
+    "dev": "node scripts/build.js --watch",
+    "install-host": "powershell -ExecutionPolicy Bypass -File host/install.ps1"
+  },
+  "keywords": [
+    "mcp",
+    "chrome",
+    "agent",
+    "browser",
+    "automation"
+  ],
+  "author": "IRA Research",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.12.12",
+    "esbuild": "^0.21.3",
+    "typescript": "^5.4.5"
+  }
+}
