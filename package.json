@@ -31,7 +31,7 @@
     "browser",
     "automation"
   ],
-  "author": "IRA Research",
+  "author": "NeuralNexusTech (https://www.neuralnexustech.com/)",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.6.0",

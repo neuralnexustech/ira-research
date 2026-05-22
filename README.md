@@ -1,10 +1,12 @@
 <div align="center">
   <h1>IRA Research MCP</h1>
   <p><strong>Next-Gen 3-Layer Browser Automation Agent</strong></p>
+  <p>by <a href="https://www.neuralnexustech.com/">NeuralNexusTech</a></p>
   <p>
     <a href="https://www.npmjs.com/package/ira-research-mcp"><img src="https://img.shields.io/npm/v/ira-research-mcp" alt="npm version"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License: MIT"></a>
     <a href="https://www.npmjs.com/package/ira-research-mcp"><img src="https://img.shields.io/npm/dm/ira-research-mcp" alt="npm downloads"></a>
+    <a href="https://www.neuralnexustech.com/"><img src="https://img.shields.io/badge/web-neuralnexustech.com-blueviolet" alt="Website"></a>
   </p>
 </div>
 
@@ -386,4 +388,4 @@ ira-research/
 
 ## License
 
-MIT © 2026 IRA Research
+MIT © 2026 [NeuralNexusTech](https://www.neuralnexustech.com/)
