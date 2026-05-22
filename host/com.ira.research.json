@@ -1,0 +1,12 @@
+{
+  "name": "com.ira.research",
+  "description": "IRA Research MCP Native Messaging Bridge",
+  "path": "C:\\Users\\bidre\\Downloads\\work\\AI AGENT\\ira-research\\dist\\host\\ira-research.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://khennnjjddpimmhdccpncgjacofneaoc/",
+    "chrome-extension://hmpidmglgdggbjokobmldogocofmbkkj/",
+    "chrome-extension://lhmjfcnaailfmmidgijamkljdmdkpbgk/",
+    "chrome-extension://IRA_EXTENSION_PLACEHOLDER/"
+  ]
+}

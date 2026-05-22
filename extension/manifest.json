@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "IRA Research",
+  "version": "0.1.0",
+  "description": "Stealth browser automation and face-detection agent for the Model Context Protocol.",
+  "permissions": [
+    "debugger",
+    "tabs",
+    "tabGroups",
+    "activeTab",
+    "storage",
+    "alarms",
+    "nativeMessaging",
+    "offscreen",
+    "sidePanel",
+    "scripting",
+    "management",
+    "downloads",
+    "tabCapture"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "IRA Research Console"
+  },
+  "side_panel": {
+    "default_path": "sidepanel/sidepanel.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "models/*",
+        "wasm/*"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

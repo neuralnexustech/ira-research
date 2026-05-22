@@ -1,0 +1,61 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "ira-research": {
+      "type": "local",
+      "command": ["npx", "ira-research-mcp"],
+      "environment": {
+        "IRA_EXTENSION_ID": "khennnjjddpimmhdccpncgjacofneaoc"
+      },
+      "autoApprove": [
+        "research_topic",
+        "tabs_list",
+        "tabs_create",
+        "navigate",
+        "click",
+        "right_click",
+        "double_click",
+        "triple_click",
+        "hover",
+        "type_text",
+        "press_key",
+        "scroll",
+        "drag",
+        "select",
+        "upload_file",
+        "form_fill_smart",
+        "ghost_click",
+        "ghost_move",
+        "ghost_drag",
+        "screenshot",
+        "screenshot_full",
+        "read_page",
+        "find",
+        "get_page_text",
+        "get_page_html",
+        "get_element_info",
+        "highlight_element",
+        "take_snapshot",
+        "wait_for",
+        "eval_js",
+        "eval_js_file",
+        "read_console",
+        "clear_console",
+        "read_network",
+        "get_response_body",
+        "get_storage",
+        "set_storage",
+        "clear_storage",
+        "get_cookies",
+        "set_cookie",
+        "intercept_request",
+        "set_throttling",
+        "export_har",
+        "face_detect",
+        "face_count",
+        "face_landmarks",
+        "face_verify_ui"
+      ]
+    }
+  }
+}

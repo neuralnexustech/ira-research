@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRA Research Options Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: hsl(224, 25%, 8%);
+      --bg-card: rgba(30, 41, 59, 0.45);
+      --border-color: rgba(147, 51, 234, 0.15);
+      --border-hover: rgba(147, 51, 234, 0.35);
+      --primary: hsl(271, 91%, 65%);
+      --primary-hover: hsl(271, 91%, 72%);
+      --accent: hsl(190, 90%, 50%);
+      --danger: hsl(350, 80%, 55%);
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--bg-dark), hsl(224, 25%, 12%));
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Header styling */
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .logo-glow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 150px;
+      height: 150px;
+      background: radial-gradient(circle, rgba(147, 51, 234, 0.25) 0%, rgba(0,0,0,0) 70%);
+      filter: blur(10px);
+      z-index: -1;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin: 0 0 10px 0;
+      letter-spacing: -0.03em;
+      background: linear-gradient(to right, #ffffff, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      font-weight: 300;
+      letter-spacing: 0.05em;
+    }
+
+    /* Grid layout */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Glass Card styling */
+    .card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, transparent, rgba(147, 51, 234, 0.03), transparent);
+      z-index: -1;
+    }
+
+    .card:hover {
+      border-color: var(--border-hover);
+      box-shadow: 0 15px 35px -8px rgba(147, 51, 234, 0.12);
+      transform: translateY(-2px);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0 0 20px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #ffffff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 12px;
+    }
+
+    .card-title svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--accent);
+    }
+
+    /* Form Fields */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group:last-child {
+      margin-bottom: 0;
+    }
+
+    label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      letter-spacing: 0.02em;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: #ffffff;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.95rem;
+      box-sizing: border-box;
+      transition: all 0.2s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="number"]:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.2);
+      background: rgba(15, 23, 42, 0.85);
+    }
+
+    /* Slider styling */
+    .slider-container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    input[type="range"] {
+      flex: 1;
+      accent-color: var(--primary);
+      height: 6px;
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.1);
+      outline: none;
+    }
+
+    .slider-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.95rem;
+      background: rgba(15, 23, 42, 0.8);
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      min-width: 48px;
+      text-align: center;
+    }
+
+    /* Toggle switches */
+    .toggle-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 48px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: .3s;
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 3px;
+      bottom: 3px;
+      background-color: #ffffff;
+      transition: .3s;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    input:checked + .toggle-slider {
+      background-color: var(--primary);
+    }
+
+    input:checked + .toggle-slider:before {
+      transform: translateX(24px);
+    }
+
+    /* Buttons block */
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+      gap: 16px;
+      margin-top: 10px;
+    }
+
+    button {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 12px 24px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+      color: #ffffff;
+      border: none;
+      box-shadow: 0 4px 14px rgba(147, 51, 234, 0.3);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 6px 20px rgba(147, 51, 234, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--text);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .btn-danger {
+      background: transparent;
+      border: 1px solid rgba(239, 68, 68, 0.25);
+      color: var(--danger);
+    }
+
+    .btn-danger:hover {
+      background: rgba(239, 68, 68, 0.08);
+      border-color: rgba(239, 68, 68, 0.5);
+    }
+
+    /* Toast system */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      color: #4ade80;
+      padding: 14px 20px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      z-index: 1000;
+      font-weight: 500;
+    }
+
+    #toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-glow"></div>
+      <h1>IRA Research</h1>
+      <div class="subtitle">System Configuration Panel</div>
+    </header>
+
+    <div class="grid">
+      <!-- Connection & Server -->
+      <div class="card">
+        <div class="card-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+          Layer 2 TCP Bridge Settings
+        </div>
+        <div class="form-group">
+          <label for="tcpPort">Primary Server TCP Port</label>
+          <input type="number" id="tcpPort" min="1024" max="65535" value="18765">
+        </div>
+        <div class="form-group" style="margin-top: 24px;">
+          <div class="toggle-group">
+            <div>
+              <label style="margin-bottom: 2px; color: #ffffff;">Automated Keep-Alive</label>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">Emit heartbeat alarms every 20 seconds</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="keepaliveEnabled" checked>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stealth Mouse Parameters -->
+      <div class="card">
+        <div class="card-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"></path><path d="M9 21H3v-6"></path><path d="M21 3l-7 7"></path><path d="M3 21l7-7"></path></svg>
+          Ghost Mouse Personalities
+        </div>
+        <div class="form-group">
+          <label for="mouseSpeed">Bezier Speed Factor (x)</label>
+          <div class="slider-container">
+            <input type="range" id="mouseSpeed" min="0.2" max="3" step="0.1" value="1.0">
+            <span class="slider-val" id="mouseSpeedVal">1.0</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mouseJitter">Coordinate Jitter Limit (px)</label>
+          <div class="slider-container">
+            <input type="range" id="mouseJitter" min="0" max="10" step="1" value="2">
+            <span class="slider-val" id="mouseJitterVal">2</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="overshootChance">Bezier Overshoot Probability (%)</label>
+          <div class="slider-container">
+            <input type="range" id="overshootChance" min="0" max="100" step="5" value="30">
+            <span class="slider-val" id="overshootChanceVal">30%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Biometric Core -->
+      <div class="card">
+        <div class="card-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7"></path><circle cx="18" cy="18" r="3"></circle><path d="M12 9H7v2h5V9z"></path></svg>
+          Biometric ML Classifier
+        </div>
+        <div class="form-group">
+          <label for="verifyRadius">UI Alignment Verification Radius (px)</label>
+          <div class="slider-container">
+            <input type="range" id="verifyRadius" min="50" max="250" step="5" value="95">
+            <span class="slider-val" id="verifyRadiusVal">95</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="faceConfidence">Face Detection Conf. Cutoff</label>
+          <div class="slider-container">
+            <input type="range" id="faceConfidence" min="0.3" max="1" step="0.05" value="0.7">
+            <span class="slider-val" id="faceConfidenceVal">0.70</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Memory Hygiene Allocations -->
+      <div class="card">
+        <div class="card-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+          Telemetry Buffer Capacities
+        </div>
+        <div class="form-group">
+          <label for="networkLimit">Network Traffic Buffer Capacity</label>
+          <input type="number" id="networkLimit" min="100" max="5000" step="100" value="1000">
+        </div>
+        <div class="form-group">
+          <label for="consoleLimit">Console Events Buffer Capacity</label>
+          <input type="number" id="consoleLimit" min="500" max="50000" step="500" value="10000">
+        </div>
+      </div>
+
+      <!-- Autonomous Research Settings -->
+      <div class="card">
+        <div class="card-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          Autonomous Research
+        </div>
+        <div class="form-group">
+          <label for="defaultSearchEngine">Default Search Engine</label>
+          <select id="defaultSearchEngine" style="width: 100%; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 10px; padding: 10px 14px; color: #ffffff; font-family: 'Outfit', sans-serif; font-size: 0.95rem; box-sizing: border-box; transition: all 0.2s ease;">
+            <option value="google">Google Search</option>
+            <option value="duckduckgo">DuckDuckGo</option>
+            <option value="bing">Microsoft Bing</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toolbar controls -->
+    <div class="button-container">
+      <button class="btn-danger" id="resetBtn">
+        Reset Defaults
+      </button>
+      <button class="btn-secondary" id="testBtn">
+        Test TCP Bridge
+      </button>
+      <button class="btn-primary" id="saveBtn">
+        <svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+        Save Configuration
+      </button>
+    </div>
+  </div>
+
+  <!-- Dynamic floating toast -->
+  <div id="toast">
+    <svg style="width:18px;height:18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toastMsg">Configuration Saved Successfully!</span>
+  </div>
+
+  <script src="options.js" type="module"></script>
+</body>
+</html>

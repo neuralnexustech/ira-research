@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ira-research": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ira-research-mcp"
+      ],
+      "env": {
+        "IRA_EXTENSION_ID": "khennnjjddpimmhdccpncgjacofneaoc"
+      }
+    }
+  }
+}

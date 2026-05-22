@@ -1,0 +1,1384 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "About this item" [ref=e9] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=e10]:
+        - link "Skip to buying options" [ref=e11] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Buying options
+      - listitem [ref=e12]:
+        - link "Reviews" [ref=e13] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Add to cart, shift, alt, K" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Add to cart
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: K
+      - listitem [ref=e65]:
+        - button "Product summary, shift, alt, d" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Product summary
+            - generic [ref=e69]:
+              - generic [ref=e70]: shift
+              - generic [ref=e71]: +
+              - generic [ref=e72]: alt
+              - generic [ref=e73]: +
+              - generic [ref=e74]: D
+      - listitem [ref=e75]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Show/Hide shortcuts
+            - generic [ref=e79]:
+              - generic [ref=e80]: shift
+              - generic [ref=e81]: +
+              - generic [ref=e82]: alt
+              - generic [ref=e83]: +
+              - generic [ref=e84]: Z
+    - generic [ref=e90]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e91]:
+    - navigation "Primary" [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "Amazon.in" [ref=e96] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Bengaluru 562130 Update location" [ref=e99] [cursor=pointer]:
+            - generic [ref=e101]:
+              - generic [ref=e102]: Delivering to Bengaluru 562130
+              - generic [ref=e103]: Update location
+        - search [ref=e106]:
+          - generic [ref=e109]:
+            - generic [ref=e111]: Industrial & Scientific
+            - combobox "Select the department you want to search in" [ref=e113] [cursor=pointer]:
+              - option "All Categories"
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific" [selected]
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e116]
+          - generic "Go" [ref=e119] [cursor=pointer]:
+            - button "Go" [ref=e120]
+        - generic [ref=e122]:
+          - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e124] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e127]:
+              - img "India" [ref=e128]
+              - generic [ref=e129]: EN
+          - generic [ref=e130]:
+            - link "Hello, sign in Account & Lists" [ref=e131] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GRCB7FZJ%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e133]: Hello, sign in
+              - generic [ref=e134]: Account & Lists
+            - button "Expand Account and Lists" [ref=e135] [cursor=pointer]
+          - link "Returns & Orders" [ref=e136] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e137]: Returns
+            - generic [ref=e138]: "& Orders"
+          - link "0 items in cart" [ref=e139] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e141]: "0"
+      - generic [ref=e143]:
+        - button "Open All Categories Menu" [ref=e145] [cursor=pointer]:
+          - generic [ref=e147]: All
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - link "Fresh" [ref=e154] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e155] [cursor=pointer]
+          - listitem [ref=e156]:
+            - link "MX Player" [ref=e158] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e159]:
+            - link "Sell" [ref=e161] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e162]:
+            - link "Bestsellers" [ref=e164] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e165]:
+            - link "Mobiles" [ref=e167] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e168]:
+            - link "Today's Deals" [ref=e170] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e171]:
+            - link "New Releases" [ref=e173] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e174]:
+            - link "Customer Service" [ref=e176] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Prime" [ref=e179] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e180] [cursor=pointer]
+          - listitem [ref=e181]:
+            - link "Amazon Pay" [ref=e183] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e184]:
+            - link "Electronics" [ref=e186] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e187]:
+            - link "Fashion" [ref=e189] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e190]:
+            - link "Home & Kitchen" [ref=e192] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e193]:
+            - link "Computers" [ref=e195] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e196]:
+            - link "Toys & Games" [ref=e198] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e199]:
+            - link "Books" [ref=e201] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e202]:
+            - link "Gift Cards" [ref=e204] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e205]:
+            - link "Beauty & Personal Care" [ref=e207] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e208]:
+            - link "Car & Motorbike" [ref=e210] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e211]:
+            - link "Home Improvement" [ref=e213] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e214]:
+            - link "Custom Products" [ref=e216] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e217]:
+            - link "Health, Household & Personal Care" [ref=e219] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e220]:
+            - link "Sports, Fitness & Outdoors" [ref=e222] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e223]:
+            - link "Grocery & Gourmet Foods" [ref=e225] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e226]:
+            - link "Pet Supplies" [ref=e228] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e229]:
+            - link "Video Games" [ref=e231] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e232]:
+            - link "Baby" [ref=e234] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e235]:
+            - link "AmazonBasics" [ref=e237] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e238]:
+            - link "Audible" [ref=e240] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e241]:
+            - link "Subscribe & Save" [ref=e243] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e244]:
+            - link "Kindle eBooks" [ref=e246] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e247]:
+            - link "Flights" [ref=e249] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+      - list [ref=e254]:
+        - listitem [ref=e255]:
+          - link "Industrial and Scientific" [ref=e257] [cursor=pointer]:
+            - /url: /Industrial-Scientific/b/?ie=UTF8&node=5866078031&ref_=topnav_storetab_industrialsubnav
+        - listitem [ref=e258]:
+          - link "Best Sellers" [ref=e260] [cursor=pointer]:
+            - /url: http://www.amazon.in/gp/bestsellers/industrial/ref=sv_indu_0/?ie=UTF8&ref_=sv_industrialsubnav_1
+        - listitem [ref=e261]:
+          - link "Lab & Scientific Products" [ref=e263] [cursor=pointer]:
+            - /url: /Lab-Scientific-Products/b/?ie=UTF8&node=6409335031&ref_=sv_industrialsubnav_2
+        - listitem [ref=e264]:
+          - link "Janitorial & Sanitation Supplies" [ref=e266] [cursor=pointer]:
+            - /url: /Janitorial-Sanitation-Supplies/b/?ie=UTF8&node=6563520031&ref_=sv_industrialsubnav_3
+        - listitem [ref=e267]:
+          - link "Test, Measure & Inspect" [ref=e269] [cursor=pointer]:
+            - /url: /Test-Measure-Inspect/b/?ie=UTF8&node=6395912031&ref_=sv_industrialsubnav_4
+        - listitem [ref=e270]:
+          - link "Tapes, Adhesives & Sealants" [ref=e272] [cursor=pointer]:
+            - /url: /Hardware-Adhesives-Sealers/b/?ie=UTF8&node=7124091031&ref_=sv_industrialsubnav_5
+        - listitem [ref=e273]:
+          - link "Occupational Health & Safety Products" [ref=e275] [cursor=pointer]:
+            - /url: /Occupational-Health-Safety-Products/b/?ie=UTF8&node=7110334031&ref_=sv_industrialsubnav_6
+      - dialog [ref=e276]
+  - generic [ref=e278]:
+    - heading "Product summary presents key product information Keyboard shortcut shift + alt + D" [level=1] [ref=e280]:
+      - button "Product summary presents key product information" [ref=e282] [cursor=pointer]:
+        - generic [ref=e283]: Product summary presents key product information
+      - separator [ref=e285]
+      - generic [ref=e286]:
+        - text: Keyboard shortcut
+        - generic [ref=e287]: shift + alt + D
+    - main [ref=e288]:
+      - list [ref=e294]:
+        - listitem [ref=e295]:
+          - link "Computers & Accessories" [ref=e297] [cursor=pointer]:
+            - /url: /computers-and-accessories/b/ref=dp_bc_1?ie=UTF8&node=976392031
+        - listitem [ref=e298]: ›
+        - listitem [ref=e299]:
+          - link "Components" [ref=e301] [cursor=pointer]:
+            - /url: /Components/b/ref=dp_bc_2?ie=UTF8&node=1375344031
+        - listitem [ref=e302]: ›
+        - listitem [ref=e303]:
+          - link "Fans & Cooling" [ref=e305] [cursor=pointer]:
+            - /url: /Fans-Cooling/b/ref=dp_bc_3?ie=UTF8&node=1375347031
+        - listitem [ref=e306]: ›
+        - listitem [ref=e307]:
+          - link "Water Cooling Systems" [ref=e309] [cursor=pointer]:
+            - /url: /Water-Cooling-Systems/b/ref=dp_bc_4?ie=UTF8&node=1375353031
+      - generic [ref=e310]:
+        - generic [ref=e322]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: ₹195.00
+            - generic [ref=e331]:
+              - text: ₹
+              - generic [ref=e332]:
+                - text: "195"
+                - generic [ref=e333]: .
+              - text: "00"
+          - generic [ref=e335]:
+            - generic [ref=e337]:
+              - generic [ref=e342]:
+                - text: ₹79 delivery Wednesday, 27 May.
+                - link "Details about delivery costs and shipping methods" [ref=e343] [cursor=pointer]:
+                  - /url: /gp/help/customer/display.html/ref=ddm_not_ft_dp?nodeId=200534000
+                  - text: Details
+              - button "Delivering to Bengaluru 562130 - Update location" [ref=e346] [cursor=pointer]:
+                - generic [ref=e352]: Delivering to Bengaluru 562130 - Update location
+            - generic [ref=e355]: In stock
+            - generic [ref=e363]:
+              - generic [ref=e364]: "Quantity:"
+              - combobox "Quantity:" [ref=e365]:
+                - option "1" [selected]
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+                - option "10"
+                - option "11"
+                - option "12"
+                - option "13"
+                - option "14"
+                - option "15"
+                - option "16"
+                - option "17"
+                - option "18"
+                - option "19"
+                - option "20"
+                - option "21"
+                - option "22"
+              - generic [ref=e368] [cursor=pointer]: Quantity:1
+            - generic [ref=e375] [cursor=pointer]:
+              - button "Add to cart" [ref=e376]
+              - generic [ref=e377]: Add to cart
+            - generic [ref=e382] [cursor=pointer]:
+              - button "Buy Now" [ref=e383]
+              - generic [ref=e384]: Buy Now
+            - group "Seller, shipping, and buying option details" [ref=e389]:
+              - generic [ref=e390]:
+                - heading "Delivered by" [level=4] [ref=e391]:
+                  - generic [ref=e392]: Delivered by
+                - generic [ref=e395]: Amazon
+              - generic [ref=e396]:
+                - heading "Sold by" [level=4] [ref=e397]:
+                  - generic [ref=e398]: Sold by
+                - link "SP Electron" [ref=e402] [cursor=pointer]:
+                  - /url: /gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3C7Z4RVM9A3G1&asin=B0GRCB7FZJ&ref_=dp_merchant_link
+              - generic [ref=e405]:
+                - heading "Payment" [level=4] [ref=e406]:
+                  - generic [ref=e407]: Payment
+                - button "Secure transaction" [ref=e410] [cursor=pointer]:
+                  - generic [ref=e411]: Secure transaction
+          - generic [ref=e412]:
+            - separator [ref=e413]
+            - link "Add to Wish List" [ref=e418] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0GRCB7FZJ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inamazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+        - generic [ref=e420]:
+          - generic [ref=e422]:
+            - button "Share" [ref=e423]:
+              - button "Share" [ref=e424] [cursor=pointer]
+            - generic [ref=e427]:
+              - radiogroup "Image thumbnails" [ref=e429]:
+                - listitem [ref=e430]:
+                  - radio [ref=e435] [cursor=pointer]
+                - listitem [ref=e437]:
+                  - radio [ref=e442] [cursor=pointer]
+                - listitem [ref=e444]:
+                  - radio [ref=e449] [cursor=pointer]
+                - listitem [ref=e451]:
+                  - radio [ref=e456] [cursor=pointer]
+              - generic [ref=e458]:
+                - generic [ref=e460]:
+                  - list
+                  - list [ref=e461]:
+                    - listitem [ref=e462] [cursor=pointer]:
+                      - button "SP Electron Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm" [ref=e465]:
+                        - img "SP Electron Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm" [ref=e466]
+                - link "Click to see full view" [ref=e470] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e472]:
+            - generic:
+              - button
+        - generic [ref=e473]:
+          - heading "Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm" [level=1] [ref=e476]
+          - 'link "Brand: SP ELECTRON" [ref=e479] [cursor=pointer]':
+            - /url: /s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=SP+ELECTRON
+          - generic [ref=e481]:
+            - generic "5.0 out of 5 stars" [ref=e483]:
+              - button "5.0 out of 5 stars" [ref=e485] [cursor=pointer]:
+                - text: "5.0"
+                - generic [ref=e487]: 5.0 out of 5 stars
+            - link "1 Review" [ref=e490] [cursor=pointer]:
+              - /url: "#averageCustomerReviewsAnchor"
+              - text: (1)
+          - separator [ref=e491]
+          - generic [ref=e494]:
+            - generic [ref=e496]:
+              - generic [ref=e497]:
+                - generic [ref=e498]: ₹195.00 with 61 percent savings
+                - generic [ref=e499]: "-61%"
+                - generic [ref=e501]: ₹195
+              - generic [ref=e504]:
+                - generic [ref=e505]: "M.R.P.: ₹499.00"
+                - generic [ref=e506]:
+                  - text: "M.R.P.:"
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: ₹499
+                    - text: ₹499
+            - generic [ref=e510]: Inclusive of all taxes
+            - generic:
+              - table
+          - generic [ref=e518]:
+            - heading "Offers" [level=5] [ref=e522]
+            - region [ref=e524]:
+              - list [ref=e530]:
+                - listitem [ref=e531] [cursor=pointer]:
+                  - generic [ref=e533]:
+                    - heading "Cashback" [level=6] [ref=e534]
+                    - generic [ref=e536]:
+                      - generic [ref=e537]: Upto ₹5.00 cashback as Amazon Pay Balance when you pay with Amazon Pay ICICI Bank Credit Cards
+                      - generic [ref=e538]: Upto ₹5.00 cashback as Amazon Pay Balance when you…
+                    - link "1 offer" [ref=e539]:
+                      - /url: "#"
+                - listitem [ref=e540] [cursor=pointer]:
+                  - generic [ref=e542]:
+                    - heading "Bank Offer" [level=6] [ref=e543]
+                    - generic [ref=e545]:
+                      - generic [ref=e546]: Upto ₹2,500.00 discount on select Credit Cards
+                      - generic [ref=e547]: Upto ₹2,500.00 discount on select Credit Cards
+                    - link "28 offers" [ref=e548]:
+                      - /url: "#"
+                - listitem [ref=e549] [cursor=pointer]:
+                  - generic [ref=e551]:
+                    - heading "Partner Offers" [level=6] [ref=e552]
+                    - generic [ref=e554]:
+                      - generic [ref=e555]:
+                        - text: Get GST invoice and save up to 18% on business purchases.
+                        - link "Sign up for free" [ref=e556]:
+                          - /url: /gp/b/ref=apay_upi_sopp?node=16179244031
+                      - generic [ref=e557]: Get GST invoice and save up to 18% on business purchases.
+                    - link "1 offer" [ref=e558]:
+                      - /url: "#"
+          - generic [ref=e564]:
+            - button "10 days Returnable" [ref=e569] [cursor=pointer]
+            - button "Amazon Delivered" [ref=e573] [cursor=pointer]
+            - button "Secure transaction" [ref=e577] [cursor=pointer]
+          - list [ref=e581]:
+            - rowgroup [ref=e582]:
+              - listitem [ref=e583]: Product Dimensions 6L x 4W x 8H Centimeters
+              - listitem [ref=e584]: Brand SP ELECTRON
+              - listitem [ref=e585]: Cooling Method Water
+              - listitem [ref=e586]: Compatible Devices Computer, Industrial Control Cabinet, Inverter, Laser
+              - listitem [ref=e587]: Number of Packs 1
+          - generic [ref=e589]:
+            - separator [ref=e590]
+            - heading "About this item" [level=1] [ref=e591]
+            - list [ref=e592]:
+              - listitem [ref=e593]: Internal Flow Channel Extrusion Forming,Brazing Parts Into a Whole,Leak Rate of Less Than 5X10-6 Mbar.l/s Parts
+              - listitem [ref=e594]: Suitable For Peltier Cooling, Cooling Graphics GPU, Motherboard Northbridge Southbridge CPU, Graphics; Semiconductor Cooling Piece, Industrial Cooling, etc
+              - listitem [ref=e595]: "Processing: Vacuum Aluminum Brazing"
+              - listitem [ref=e596]: "Surface Treatment: Silver OxidationApplicable to Computer CPU Water, Industrial Inverter Driver, Laser-Head Cooling, Industrial Control Cabinet Cooling"
+            - generic [ref=e597]:
+              - text: ›
+              - link "See more product details" [ref=e598] [cursor=pointer]:
+                - /url: "#productDetails"
+          - link "Report an issue with this product" [ref=e604] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e606]:
+          - separator [ref=e607]
+          - generic [ref=e610]:
+            - iframe [ref=e611]:
+              - generic [ref=f1e4]:
+                - link "ARCTIC Freezer 4U-M | Multicompatible 4U Single Tower CPU Cooler | INTEL XEON | AMD -SP6, sTR5, SP3, TR4, sTRX4, sWRX8" [ref=f1e6] [cursor=pointer]:
+                  - /url: https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1Mjc1MDI5MTI1NjAxMTY2OjE3NzkyNzc4NzE6c3BfaHFwX3NoYXJlZDozMDA1OTM2OTc3NjYwMzI6Ojo6&url=%2Fdp%2FB09VDM2P92%2Fref%3Dsspa_dk_hqp_detail_aax_0%3Fpsc%3D1%26aref%3DqBZtaszLHM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk&aref=qBZtaszLHM&sp_cr=ZAZ
+                - img "ARCTIC Freezer 4U-M | Multicompatible 4U Single Tower CPU Cooler | INTEL XEON | AMD -SP6, sTR5, SP3, TR4, sTRX4, sWRX8" [ref=f1e7]
+                - generic [ref=f1e8]:
+                  - generic [ref=f1e9]: ARCTIC Freezer 4U-M | Multicompatible 4U Single Tower CPU Cooler |...
+                  - generic [ref=f1e10]:
+                    - generic [ref=f1e11]: "60"
+                    - text: ₹9,019.00
+            - button "Leave feedback on Sponsored advertisement" [ref=e613] [cursor=pointer]:
+              - generic [ref=e614]: Sponsored
+      - generic [ref=e620]:
+        - separator [ref=e621]
+        - heading "Frequently bought together" [level=2] [ref=e622]
+        - generic [ref=e623]:
+          - group "Frequently bought together" [ref=e624]:
+            - generic [ref=e625]:
+              - generic [ref=e626]:
+                - 'checkbox "This item: SP Electron Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm" [checked] [ref=e632]'
+                - generic [ref=e637]:
+                  - generic [ref=e639]: "This item: SP Electron Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm"
+                  - generic [ref=e646]:
+                    - generic [ref=e647]: ₹195.00
+                    - generic [ref=e648]:
+                      - text: ₹
+                      - generic [ref=e649]:
+                        - text: "195"
+                        - generic [ref=e650]: .
+                      - text: "00"
+              - generic [ref=e651]:
+                - generic [ref=e652]:
+                  - generic [ref=e653]: +
+                  - checkbox "SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block" [checked] [ref=e657]
+                  - link "SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block" [ref=e661] [cursor=pointer]:
+                    - /url: /Electron-40x80x12mm-Waterblock-Peltier-Aluminum/dp/B0F6YT76KD/ref=pd_bxgy_thbs_d_sccl_1/521-4947831-8740418?pd_rd_w=uxMYr&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0F6YT76KD&psc=1
+                    - img "SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block" [ref=e662]
+                - generic [ref=e663]:
+                  - link "SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block" [ref=e665] [cursor=pointer]:
+                    - /url: /Electron-40x80x12mm-Waterblock-Peltier-Aluminum/dp/B0F6YT76KD/ref=pd_bxgy_d_sccl_1/521-4947831-8740418?pd_rd_w=uxMYr&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0F6YT76KD&psc=1
+                    - generic [ref=e666]: SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block
+                  - generic [ref=e673]:
+                    - generic [ref=e674]: ₹399.00
+                    - generic [ref=e675]:
+                      - text: ₹
+                      - generic [ref=e676]:
+                        - text: "399"
+                        - generic [ref=e677]: .
+                      - text: "00"
+          - generic [ref=e679]:
+            - generic [ref=e681]:
+              - text: "Total price:"
+              - generic [ref=e682]:
+                - generic [ref=e683]: ₹594.00
+                - generic [ref=e684]:
+                  - text: ₹
+                  - generic [ref=e685]: "594."
+                  - text: "00"
+            - generic [ref=e691] [cursor=pointer]:
+              - button "Add both to Cart, SP Electron Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm" [ref=e692]
+              - generic [ref=e693]: Add both to Cart
+      - generic [ref=e696]:
+        - separator [ref=e697]
+        - group [ref=e700]:
+          - heading "Customers who viewed this item also viewed" [level=2] [ref=e705]
+          - group [ref=e710]:
+            - list [ref=e711]:
+              - listitem [ref=e712]:
+                - generic [ref=e714]:
+                  - link [ref=e715] [cursor=pointer]:
+                    - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=pd_sbs_d_sccl_1_1/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                    - img [ref=e717]
+                  - generic [ref=e719]:
+                    - link "Robocraze DC 12V Thermoelectric Peltier Refrigeration Cooling System Semiconductor Air Conditioner Cooler DIY Kit" [ref=e720] [cursor=pointer]:
+                      - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=pd_sbs_d_sccl_1_1/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                      - generic [ref=e722]: Robocraze DC 12V Thermoelectric Peltier Refrigeration Cooling System Semiconductor Air Conditioner Cooler DIY Kit
+                    - link "3.4 out of 5 stars, 342 ratings" [ref=e725] [cursor=pointer]:
+                      - /url: /product-reviews/B079P54BDF/ref=pd_sbs_d_sccl_1_1_cr/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF
+                      - generic [ref=e727]: 3.4 out of 5 stars
+                      - text: "342"
+                    - generic [ref=e728]:
+                      - generic [ref=e730]:
+                        - link:
+                          - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=pd_sbs_d_sccl_1_1/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                        - generic [ref=e731]:
+                          - link "₹849.00" [ref=e732] [cursor=pointer]:
+                            - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=pd_sbs_d_sccl_1_1/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                            - generic [ref=e733]:
+                              - generic [ref=e734]: ₹849.00
+                              - generic [ref=e735]:
+                                - text: ₹
+                                - generic [ref=e736]: "849."
+                                - text: "00"
+                          - link "(₹169.80/count)" [ref=e737] [cursor=pointer]:
+                            - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=pd_sbs_d_sccl_1_1/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                      - generic [ref=e739]: Get it by Friday, May 22
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e740]:
+                - generic [ref=e742]:
+                  - link [ref=e743] [cursor=pointer]:
+                    - /url: /QBM-Peltier-Cooling-40x40x12mm-Aluminum/dp/B0FFYWMK4V/ref=pd_sbs_d_sccl_1_2/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0FFYWMK4V&psc=1
+                    - img [ref=e745]
+                  - generic [ref=e747]:
+                    - link "QBM Peltier Water Cooling Plate, 40x40x12mm, Aluminum Water Block, Heat Sink System with 3.5 m³/h Fan, 5V USB" [ref=e748] [cursor=pointer]:
+                      - /url: /QBM-Peltier-Cooling-40x40x12mm-Aluminum/dp/B0FFYWMK4V/ref=pd_sbs_d_sccl_1_2/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0FFYWMK4V&psc=1
+                      - generic [ref=e750]: QBM Peltier Water Cooling Plate, 40x40x12mm, Aluminum Water Block, Heat Sink System with 3.5 m³/h Fan, 5V USB
+                    - link "4.1 out of 5 stars, 5 ratings" [ref=e753] [cursor=pointer]:
+                      - /url: /product-reviews/B0FFYWMK4V/ref=pd_sbs_d_sccl_1_2_cr/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0FFYWMK4V
+                      - generic [ref=e755]: 4.1 out of 5 stars
+                      - text: "5"
+                    - link "₹225.00" [ref=e759] [cursor=pointer]:
+                      - /url: /QBM-Peltier-Cooling-40x40x12mm-Aluminum/dp/B0FFYWMK4V/ref=pd_sbs_d_sccl_1_2/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0FFYWMK4V&psc=1
+                      - generic [ref=e761]:
+                        - generic [ref=e762]: ₹225.00
+                        - generic [ref=e763]:
+                          - text: ₹
+                          - generic [ref=e764]: "225."
+                          - text: "00"
+                    - text: ₹120.00 shipping
+              - listitem [ref=e765]:
+                - generic [ref=e767]:
+                  - link [ref=e768] [cursor=pointer]:
+                    - /url: /Electron-Peltier-Aluminum-Cooling-Flexible/dp/B0D3S4QCK3/ref=pd_sbs_d_sccl_1_3/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3S4QCK3&psc=1
+                    - img [ref=e770]
+                  - generic [ref=e772]:
+                    - link "SP Electron Combo Of Peltier Aluminum Water Cooling Block for Desktop PC, 12706 Peltier Module, PVC Tube Clear Flexible Pipe & 3V - 12V DC Submersible Pump" [ref=e773] [cursor=pointer]:
+                      - /url: /Electron-Peltier-Aluminum-Cooling-Flexible/dp/B0D3S4QCK3/ref=pd_sbs_d_sccl_1_3/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3S4QCK3&psc=1
+                      - generic [ref=e775]: SP Electron Combo Of Peltier Aluminum Water Cooling Block for Desktop PC, 12706 Peltier Module, PVC Tube Clear Flexible Pipe & 3V - 12V DC Submersible Pump
+                    - link "3.4 out of 5 stars, 14 ratings" [ref=e778] [cursor=pointer]:
+                      - /url: /product-reviews/B0D3S4QCK3/ref=pd_sbs_d_sccl_1_3_cr/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3S4QCK3
+                      - generic [ref=e780]: 3.4 out of 5 stars
+                      - text: "14"
+                    - generic [ref=e781]:
+                      - link "#1 Best Seller":
+                        - /url: /gp/bestsellers/computers/1375353031/ref=zg_b_bs_1375353031_1/ref=pd_sbs_d_sccl_1_3_bsb/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3S4QCK3
+                        - generic [ref=e785] [cursor=pointer]: "#1 Best Seller"
+                    - link "₹449.00" [ref=e789] [cursor=pointer]:
+                      - /url: /Electron-Peltier-Aluminum-Cooling-Flexible/dp/B0D3S4QCK3/ref=pd_sbs_d_sccl_1_3/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3S4QCK3&psc=1
+                      - generic [ref=e791]:
+                        - generic [ref=e792]: ₹449.00
+                        - generic [ref=e793]:
+                          - text: ₹
+                          - generic [ref=e794]: "449."
+                          - text: "00"
+                    - text: ₹79.00 shipping
+              - listitem [ref=e795]:
+                - generic [ref=e797]:
+                  - link [ref=e798] [cursor=pointer]:
+                    - /url: /BITSKY-INDIA-Submersible-Transparent-40x40x12mm/dp/B0D6KV2YFW/ref=pd_sbs_d_sccl_1_4/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D6KV2YFW&psc=1
+                    - img [ref=e800]
+                  - generic [ref=e802]:
+                    - link "BITSKY INDIA Mini DC 3-9V Side Submersible water pump Transparent Water Pipe,Aluminum Water Cooling Block, Liquid Plate Heat Sink (40x40x12mm), TEC1-12706 Peltier Element Module Element Cooling Plate" [ref=e803] [cursor=pointer]:
+                      - /url: /BITSKY-INDIA-Submersible-Transparent-40x40x12mm/dp/B0D6KV2YFW/ref=pd_sbs_d_sccl_1_4/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D6KV2YFW&psc=1
+                      - generic [ref=e805]: BITSKY INDIA Mini DC 3-9V Side Submersible water pump Transparent Water Pipe,Aluminum Water Cooling Block, Liquid Plate Heat Sink (40x40x12mm), TEC1-12706 Peltier Element Module Element Cooling Plate
+                    - link "3.8 out of 5 stars, 21 ratings" [ref=e808] [cursor=pointer]:
+                      - /url: /product-reviews/B0D6KV2YFW/ref=pd_sbs_d_sccl_1_4_cr/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D6KV2YFW
+                      - generic [ref=e810]: 3.8 out of 5 stars
+                      - text: "21"
+                    - link "₹599.00" [ref=e814] [cursor=pointer]:
+                      - /url: /BITSKY-INDIA-Submersible-Transparent-40x40x12mm/dp/B0D6KV2YFW/ref=pd_sbs_d_sccl_1_4/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D6KV2YFW&psc=1
+                      - generic [ref=e816]:
+                        - generic [ref=e817]: ₹599.00
+                        - generic [ref=e818]:
+                          - text: ₹
+                          - generic [ref=e819]: "599."
+                          - text: "00"
+                    - text: FREE Delivery
+              - listitem [ref=e820]:
+                - generic [ref=e822]:
+                  - link [ref=e823] [cursor=pointer]:
+                    - /url: /ICSTORE-Aluminum-Cooling-Peltier-Transistor/dp/B09ZJC33SD/ref=pd_sbs_d_sccl_1_5/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B09ZJC33SD&psc=1
+                    - img [ref=e825]
+                  - generic [ref=e827]:
+                    - link "ICSTORE Heat sink Aluminum,3.45cm X 4.5cm x 1.35cm, Heat sink for Cooling, Peltier Laptop CPU GPU VGA RAM VRAM VRM IC LED MOSFET Transistor SCR - Pack of 2" [ref=e828] [cursor=pointer]:
+                      - /url: /ICSTORE-Aluminum-Cooling-Peltier-Transistor/dp/B09ZJC33SD/ref=pd_sbs_d_sccl_1_5/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B09ZJC33SD&psc=1
+                      - generic [ref=e830]: ICSTORE Heat sink Aluminum,3.45cm X 4.5cm x 1.35cm, Heat sink for Cooling, Peltier Laptop CPU GPU VGA RAM VRAM VRM IC LED MOSFET Transistor SCR - Pack of 2
+                    - link "4.2 out of 5 stars, 95 ratings" [ref=e833] [cursor=pointer]:
+                      - /url: /product-reviews/B09ZJC33SD/ref=pd_sbs_d_sccl_1_5_cr/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B09ZJC33SD
+                      - generic [ref=e835]: 4.2 out of 5 stars
+                      - text: "95"
+                    - generic [ref=e838]:
+                      - link:
+                        - /url: /ICSTORE-Aluminum-Cooling-Peltier-Transistor/dp/B09ZJC33SD/ref=pd_sbs_d_sccl_1_5/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B09ZJC33SD&psc=1
+                      - generic [ref=e839]:
+                        - link "₹145.00" [ref=e840] [cursor=pointer]:
+                          - /url: /ICSTORE-Aluminum-Cooling-Peltier-Transistor/dp/B09ZJC33SD/ref=pd_sbs_d_sccl_1_5/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B09ZJC33SD&psc=1
+                          - generic [ref=e841]:
+                            - generic [ref=e842]: ₹145.00
+                            - generic [ref=e843]:
+                              - text: ₹
+                              - generic [ref=e844]: "145."
+                              - text: "00"
+                        - link "(₹72.50/count)" [ref=e845] [cursor=pointer]:
+                          - /url: /ICSTORE-Aluminum-Cooling-Peltier-Transistor/dp/B09ZJC33SD/ref=pd_sbs_d_sccl_1_5/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B09ZJC33SD&psc=1
+                    - text: ₹54.00 shipping
+              - listitem [ref=e846]:
+                - generic [ref=e848]:
+                  - link [ref=e849] [cursor=pointer]:
+                    - /url: /SP-Electron-Thermoelectric-Peltier-Cooling/dp/B0GRBPD31L/ref=pd_sbs_d_sccl_1_6/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0GRBPD31L&psc=1
+                    - img [ref=e851]
+                  - generic [ref=e853]:
+                    - link "SP Electron 12706 Thermoelectric Peltier Cooler or Cooling Module 12V 92W Max" [ref=e854] [cursor=pointer]:
+                      - /url: /SP-Electron-Thermoelectric-Peltier-Cooling/dp/B0GRBPD31L/ref=pd_sbs_d_sccl_1_6/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0GRBPD31L&psc=1
+                      - generic [ref=e856]: SP Electron 12706 Thermoelectric Peltier Cooler or Cooling Module 12V 92W Max
+                    - link "2.5 out of 5 stars, 2 ratings" [ref=e859] [cursor=pointer]:
+                      - /url: /product-reviews/B0GRBPD31L/ref=pd_sbs_d_sccl_1_6_cr/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0GRBPD31L
+                      - generic [ref=e861]: 2.5 out of 5 stars
+                      - text: "2"
+                    - generic [ref=e862]:
+                      - link "₹335.00" [ref=e865] [cursor=pointer]:
+                        - /url: /SP-Electron-Thermoelectric-Peltier-Cooling/dp/B0GRBPD31L/ref=pd_sbs_d_sccl_1_6/521-4947831-8740418?pd_rd_w=2sBbe&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0GRBPD31L&psc=1
+                        - generic [ref=e867]:
+                          - generic [ref=e868]: ₹335.00
+                          - generic [ref=e869]:
+                            - text: ₹
+                            - generic [ref=e870]: "335."
+                            - text: "00"
+                      - generic [ref=e872]: Get it by Wednesday, May 27
+                    - text: FREE Delivery by Amazon
+      - generic:
+        - navigation:
+          - navigation "Navigate within the product detail page":
+            - navigation "Back to top jump link":
+              - generic:
+                - generic: Top
+            - navigation "About this item widget jump link":
+              - generic:
+                - generic: About this item
+            - navigation "Similar widget jump link":
+              - generic:
+                - generic: Similar
+            - navigation "From the brand widget jump link":
+              - generic:
+                - generic: From the Brand
+            - navigation "Product information widget jump link":
+              - generic:
+                - generic: Product information
+            - navigation "Customer reviews widget jump link":
+              - generic:
+                - generic: Reviews
+          - navigation "Back to top Image jump link":
+            - img "SP Electron Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm"
+          - navigation "Back to top title jump link":
+            - generic: Pack of 1 Pcs Peltier Aluminum Water Cooling Block 40x40x12mm + 7mm
+      - generic [ref=e877]:
+        - separator [ref=e878]
+        - group [ref=e881]:
+          - heading "Explore more items" [level=2] [ref=e886]
+          - group [ref=e891]:
+            - list [ref=e892]:
+              - listitem [ref=e893]:
+                - generic [ref=e895]:
+                  - link [ref=e896] [cursor=pointer]:
+                    - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=bmx_dp_d_sccl_2_1/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                    - img [ref=e898]
+                  - generic [ref=e900]:
+                    - link "Robocraze DC 12V Thermoelectric Peltier Refrigeration Cooling System Semiconductor Air Conditioner Cooler DIY Kit" [ref=e901] [cursor=pointer]:
+                      - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=bmx_dp_d_sccl_2_1/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                      - generic [ref=e903]: Robocraze DC 12V Thermoelectric Peltier Refrigeration Cooling System Semiconductor Air Conditioner Cooler DIY Kit
+                    - link "3.4 out of 5 stars, 342 ratings" [ref=e906] [cursor=pointer]:
+                      - /url: /product-reviews/B079P54BDF/ref=bmx_dp_d_sccl_2_1_cr/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF
+                      - generic [ref=e908]: 3.4 out of 5 stars
+                      - text: "342"
+                    - generic [ref=e909]:
+                      - generic [ref=e911]:
+                        - link:
+                          - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=bmx_dp_d_sccl_2_1/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                        - generic [ref=e912]:
+                          - link "₹849.00" [ref=e913] [cursor=pointer]:
+                            - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=bmx_dp_d_sccl_2_1/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                            - generic [ref=e914]:
+                              - generic [ref=e915]: ₹849.00
+                              - generic [ref=e916]:
+                                - text: ₹
+                                - generic [ref=e917]: "849."
+                                - text: "00"
+                          - link "(₹169.80/count)" [ref=e918] [cursor=pointer]:
+                            - /url: /Robocraze-Thermoelectric-Refrigeration-Semiconductor-Conditioner/dp/B079P54BDF/ref=bmx_dp_d_sccl_2_1/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B079P54BDF&psc=1
+                      - generic [ref=e920]: Get it by Friday, May 22
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e921]:
+                - generic [ref=e923]:
+                  - link [ref=e924] [cursor=pointer]:
+                    - /url: /Electronic-Spices-TEC1-12706-Thermoelectric-Peltier/dp/B0D3GPHYMV/ref=bmx_dp_d_sccl_2_2/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3GPHYMV&psc=1
+                    - img [ref=e926]
+                  - generic [ref=e928]:
+                    - link "Electronic Spices TEC1-12706 12V 6A Thermoelectric Peltier Cooler Module" [ref=e929] [cursor=pointer]:
+                      - /url: /Electronic-Spices-TEC1-12706-Thermoelectric-Peltier/dp/B0D3GPHYMV/ref=bmx_dp_d_sccl_2_2/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3GPHYMV&psc=1
+                      - generic [ref=e931]: Electronic Spices TEC1-12706 12V 6A Thermoelectric Peltier Cooler Module
+                    - link "3.6 out of 5 stars, 60 ratings" [ref=e934] [cursor=pointer]:
+                      - /url: /product-reviews/B0D3GPHYMV/ref=bmx_dp_d_sccl_2_2_cr/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3GPHYMV
+                      - generic [ref=e936]: 3.6 out of 5 stars
+                      - text: "60"
+                    - generic [ref=e937]:
+                      - link "₹319.00" [ref=e940] [cursor=pointer]:
+                        - /url: /Electronic-Spices-TEC1-12706-Thermoelectric-Peltier/dp/B0D3GPHYMV/ref=bmx_dp_d_sccl_2_2/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0D3GPHYMV&psc=1
+                        - generic [ref=e942]:
+                          - generic [ref=e943]: ₹319.00
+                          - generic [ref=e944]:
+                            - text: ₹
+                            - generic [ref=e945]: "319."
+                            - text: "00"
+                      - generic [ref=e947]: Get it by Friday, May 22
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e948]:
+                - generic [ref=e950]:
+                  - link [ref=e951] [cursor=pointer]:
+                    - /url: /ANMSALES-HG-613-Brushless-Submersible-Fountain/dp/B07H8N7QGX/ref=bmx_dp_d_sccl_2_3/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07H8N7QGX&psc=1
+                    - img [ref=e953]
+                  - generic [ref=e955]:
+                    - link "ANMSALES AD-20P-1230C 12v Mini Brushless Motor Submersible Water Pump Fountain Pump.. DC Pump Solar Pump. (12V 3.6W 240L/Hr 3Mtr)" [ref=e956] [cursor=pointer]:
+                      - /url: /ANMSALES-HG-613-Brushless-Submersible-Fountain/dp/B07H8N7QGX/ref=bmx_dp_d_sccl_2_3/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07H8N7QGX&psc=1
+                      - generic [ref=e958]: ANMSALES AD-20P-1230C 12v Mini Brushless Motor Submersible Water Pump Fountain Pump.. DC Pump Solar Pump. (12V 3.6W 240L/Hr 3Mtr)
+                    - link "3.7 out of 5 stars, 102 ratings" [ref=e961] [cursor=pointer]:
+                      - /url: /product-reviews/B07H8N7QGX/ref=bmx_dp_d_sccl_2_3_cr/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07H8N7QGX
+                      - generic [ref=e963]: 3.7 out of 5 stars
+                      - text: "102"
+                    - link "₹575.00" [ref=e967] [cursor=pointer]:
+                      - /url: /ANMSALES-HG-613-Brushless-Submersible-Fountain/dp/B07H8N7QGX/ref=bmx_dp_d_sccl_2_3/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07H8N7QGX&psc=1
+                      - generic [ref=e969]:
+                        - generic [ref=e970]: ₹575.00
+                        - generic [ref=e971]:
+                          - text: ₹
+                          - generic [ref=e972]: "575."
+                          - text: "00"
+                    - text: FREE Delivery
+              - listitem [ref=e973]:
+                - generic [ref=e975]:
+                  - link [ref=e976] [cursor=pointer]:
+                    - /url: /Electron-40x80x12mm-Waterblock-Peltier-Aluminum/dp/B0F6YT76KD/ref=bmx_dp_d_sccl_2_4/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0F6YT76KD&psc=1
+                    - img [ref=e978]
+                  - generic [ref=e980]:
+                    - link "SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block" [ref=e981] [cursor=pointer]:
+                      - /url: /Electron-40x80x12mm-Waterblock-Peltier-Aluminum/dp/B0F6YT76KD/ref=bmx_dp_d_sccl_2_4/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0F6YT76KD&psc=1
+                      - generic [ref=e983]: SP Electron 40x80x12mm Liquid Water Cooler Heat Sink System Waterblock Peltier Aluminum Water Cooling Block
+                    - link "3.3 out of 5 stars, 3 ratings" [ref=e986] [cursor=pointer]:
+                      - /url: /product-reviews/B0F6YT76KD/ref=bmx_dp_d_sccl_2_4_cr/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0F6YT76KD
+                      - generic [ref=e988]: 3.3 out of 5 stars
+                      - text: "3"
+                    - link "₹399.00" [ref=e992] [cursor=pointer]:
+                      - /url: /Electron-40x80x12mm-Waterblock-Peltier-Aluminum/dp/B0F6YT76KD/ref=bmx_dp_d_sccl_2_4/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B0F6YT76KD&psc=1
+                      - generic [ref=e994]:
+                        - generic [ref=e995]: ₹399.00
+                        - generic [ref=e996]:
+                          - text: ₹
+                          - generic [ref=e997]: "399."
+                          - text: "00"
+                    - text: ₹79.00 shipping
+              - listitem [ref=e998]:
+                - generic [ref=e1000]:
+                  - link [ref=e1001] [cursor=pointer]:
+                    - /url: /Electronicspices-Cooling-Cooler-Radiator-CONNECTOR/dp/B07ZTN54QK/ref=bmx_dp_d_sccl_2_5/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07ZTN54QK&psc=1
+                    - img [ref=e1003]
+                  - generic [ref=e1005]:
+                    - link "Electronicspices DC 12V Cooling Fan for PC Case CPU Cooler Radiator WITH (JST CONNECTOR) (BLACK)" [ref=e1006] [cursor=pointer]:
+                      - /url: /Electronicspices-Cooling-Cooler-Radiator-CONNECTOR/dp/B07ZTN54QK/ref=bmx_dp_d_sccl_2_5/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07ZTN54QK&psc=1
+                      - generic [ref=e1008]: Electronicspices DC 12V Cooling Fan for PC Case CPU Cooler Radiator WITH (JST CONNECTOR) (BLACK)
+                    - link "3.8 out of 5 stars, 453 ratings" [ref=e1011] [cursor=pointer]:
+                      - /url: /product-reviews/B07ZTN54QK/ref=bmx_dp_d_sccl_2_5_cr/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07ZTN54QK
+                      - generic [ref=e1013]: 3.8 out of 5 stars
+                      - text: "453"
+                    - generic [ref=e1014]:
+                      - link "₹134.00" [ref=e1017] [cursor=pointer]:
+                        - /url: /Electronicspices-Cooling-Cooler-Radiator-CONNECTOR/dp/B07ZTN54QK/ref=bmx_dp_d_sccl_2_5/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B07ZTN54QK&psc=1
+                        - generic [ref=e1019]:
+                          - generic [ref=e1020]: ₹134.00
+                          - generic [ref=e1021]:
+                            - text: ₹
+                            - generic [ref=e1022]: "134."
+                            - text: "00"
+                      - generic [ref=e1024]: Get it by Saturday, May 23
+                    - text: FREE Delivery by Amazon
+              - listitem [ref=e1025]:
+                - generic [ref=e1027]:
+                  - link [ref=e1028] [cursor=pointer]:
+                    - /url: /xcluma-TEC1-12715-Thermoelectric-Cooler-Peltier/dp/B072TH8421/ref=bmx_dp_d_sccl_2_6/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B072TH8421&psc=1
+                    - img [ref=e1030]
+                  - generic [ref=e1032]:
+                    - link "xcluma Tec1-12715 Thermoelectric Cooler Peltier Module 12V 165W Max" [ref=e1033] [cursor=pointer]:
+                      - /url: /xcluma-TEC1-12715-Thermoelectric-Cooler-Peltier/dp/B072TH8421/ref=bmx_dp_d_sccl_2_6/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B072TH8421&psc=1
+                      - generic [ref=e1035]: xcluma Tec1-12715 Thermoelectric Cooler Peltier Module 12V 165W Max
+                    - link "3.5 out of 5 stars, 236 ratings" [ref=e1038] [cursor=pointer]:
+                      - /url: /product-reviews/B072TH8421/ref=bmx_dp_d_sccl_2_6_cr/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B072TH8421
+                      - generic [ref=e1040]: 3.5 out of 5 stars
+                      - text: "236"
+                    - link "₹512.00" [ref=e1044] [cursor=pointer]:
+                      - /url: /xcluma-TEC1-12715-Thermoelectric-Cooler-Peltier/dp/B072TH8421/ref=bmx_dp_d_sccl_2_6/521-4947831-8740418?pd_rd_w=vyMhx&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PBRKEAP6Z4C67MCQKJSJ&pd_rd_wg=R4sCy&pd_rd_r=9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4&pd_rd_i=B072TH8421&psc=1
+                      - generic [ref=e1046]:
+                        - generic [ref=e1047]: ₹512.00
+                        - generic [ref=e1048]:
+                          - text: ₹
+                          - generic [ref=e1049]: "512."
+                          - text: "00"
+                    - text: FREE Delivery
+      - generic [ref=e1050]:
+        - generic [ref=e1053]:
+          - heading "Product description" [level=2] [ref=e1056]
+          - paragraph [ref=e1058]: Applicable to Computer CPU Water, Industrial Inverter Driver, Laser-Head Cooling, Industrial Control Cabinet Cooling
+        - generic [ref=e1059]:
+          - separator [ref=e1060]
+          - generic [ref=e1062]:
+            - heading "Product information" [level=1] [ref=e1063]
+            - generic [ref=e1067]:
+              - generic [ref=e1068]:
+                - generic [ref=e1070]:
+                  - button "Features & Specs" [ref=e1073] [cursor=pointer]:
+                    - heading "Features & Specs" [level=5] [ref=e1075]
+                  - button "Additional details" [ref=e1078] [cursor=pointer]:
+                    - heading "Additional details" [level=5] [ref=e1080]
+                - generic [ref=e1083]:
+                  - heading "Feedback" [level=3] [ref=e1084]
+                  - generic [ref=e1089]:
+                    - text: Would you like to
+                    - button "tell us about a lower price?" [ref=e1091] [cursor=pointer]: tell us about a lower price?
+              - button "Item details" [ref=e1098] [cursor=pointer]:
+                - heading "Item details" [level=5] [ref=e1100]
+      - generic [ref=e1102]:
+        - separator [ref=e1103]
+        - heading "What is in the box?" [level=2] [ref=e1104]
+        - listitem [ref=e1106]: 1 pCS
+      - generic [ref=e1109]:
+        - separator [ref=e1110]
+        - group "Products related to this item" [ref=e1111]:
+          - generic [ref=e1113]:
+            - heading "Products related to this item" [level=2] [ref=e1114]
+            - link "Sponsored" [ref=e1118] [cursor=pointer]:
+              - /url: "#sp_detail2_feedbackForm"
+              - generic [ref=e1119]:
+                - text: Sponsored
+                - img [ref=e1120]
+          - group [ref=e1127]:
+            - list [ref=e1128]:
+              - listitem [ref=e1129]:
+                - generic [ref=e1130]:
+                  - link "MIST MAKER 12 LED Industrial Incubator Humidifier Ultrasonic Mist Maker Fogger Water Fountain Pond Atomizer (auto Mist 1 pcs)" [ref=e1131] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0DFWN3526%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zoOMQ2mw6B&sp_cr=ZAZ
+                    - img [ref=e1134]
+                    - generic [ref=e1135]: MIST MAKER 12 LED Industrial Incubator Humidifier Ultrasonic Mist Maker Fogger Wate...
+                  - link "3.9 out of 5 stars 178 ratings" [ref=e1137] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0DFWN3526%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zoOMQ2mw6B&sp_cr=ZAZ#customerReviews
+                    - text: "178"
+                  - generic [ref=e1139]:
+                    - generic:
+                      - link "#1 Best Seller":
+                        - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0DFWN3526%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zoOMQ2mw6B&sp_cr=ZAZ
+                        - generic [ref=e1141] [cursor=pointer]: "#1 Best Seller"
+                  - 'link "-36% ₹480.00 ( ₹48,000.00 / 100 g) M.R.P: ₹750.00 M.R.P: ₹750.00" [ref=e1143] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0DFWN3526%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zoOMQ2mw6B&sp_cr=ZAZ
+                    - text: "-36%"
+                    - generic [ref=e1144]:
+                      - generic [ref=e1145]: ₹480.00
+                      - generic [ref=e1146]:
+                        - text: ₹
+                        - generic [ref=e1147]:
+                          - text: "480"
+                          - generic [ref=e1148]: .
+                        - text: "00"
+                    - generic [ref=e1149]:
+                      - text: (
+                      - generic [ref=e1150]:
+                        - generic [ref=e1151]: ₹48,000.00
+                        - text: ₹48,000.00
+                      - text: / 100 g)
+                    - generic [ref=e1152]: "M.R.P: ₹750.00"
+                    - generic [ref=e1153]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1154]:
+                        - generic [ref=e1155]: ₹750.00
+                        - text: ₹750.00
+              - listitem [ref=e1156]:
+                - generic [ref=e1157]:
+                  - link "amiciFlo 12V DC Brushless Submersible Water Pump, 240L/H Flow Rate, 4.8W Motor, 3M Lift, 8mm Inlet/Outlet – Quiet Mini Pump for Aquarium, Fountain, Hydroponics, DIY Projects" [ref=e1158] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA1MzQzODA3MjQ3MzI6Ojo6&url=%2Fdp%2FB0F4K5XW21%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0F4K5XW21%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3Dtmkj4FkNhE%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=tmkj4FkNhE&sp_cr=ZAZ
+                    - img [ref=e1161]
+                    - generic [ref=e1162]: amiciFlo 12V DC Brushless Submersible Water Pump, 240L/H Flow Rate, 4.8W…
+                  - link "2.9 out of 5 stars 16 ratings" [ref=e1164] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA1MzQzODA3MjQ3MzI6Ojo6&url=%2Fdp%2FB0F4K5XW21%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0F4K5XW21%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3Dtmkj4FkNhE%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=tmkj4FkNhE&sp_cr=ZAZ#customerReviews
+                    - text: "16"
+                  - 'link "-46% ₹649.00 M.R.P: ₹1,200.00 M.R.P: ₹1,200.00" [ref=e1167] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA1MzQzODA3MjQ3MzI6Ojo6&url=%2Fdp%2FB0F4K5XW21%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0F4K5XW21%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3Dtmkj4FkNhE%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=tmkj4FkNhE&sp_cr=ZAZ
+                    - text: "-46%"
+                    - generic [ref=e1168]:
+                      - generic [ref=e1169]: ₹649.00
+                      - generic [ref=e1170]:
+                        - text: ₹
+                        - generic [ref=e1171]:
+                          - text: "649"
+                          - generic [ref=e1172]: .
+                        - text: "00"
+                    - generic [ref=e1173]: "M.R.P: ₹1,200.00"
+                    - generic [ref=e1174]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1175]:
+                        - generic [ref=e1176]: ₹1,200.00
+                        - text: ₹1,200.00
+              - listitem [ref=e1177]:
+                - generic [ref=e1178]:
+                  - link "ARCTIC Freezer 4U-M | Multicompatible 4U Single Tower CPU Cooler | INTEL XEON | AMD -SP6, sTR5, SP3, TR4, sTRX4, sWRX8" [ref=e1179] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA1OTM2OTc3NjYwMzI6Ojo6&url=%2Fdp%2FB09VDM2P92%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09VDM2P92%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DqBZtaszLHM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=qBZtaszLHM&sp_cr=ZAZ
+                    - img [ref=e1182]
+                    - generic [ref=e1183]: ARCTIC Freezer 4U-M | Multicompatible 4U Single Tower CPU Cooler | INTEL XEON | AMD...
+                  - link "4.4 out of 5 stars 60 ratings" [ref=e1185] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA1OTM2OTc3NjYwMzI6Ojo6&url=%2Fdp%2FB09VDM2P92%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09VDM2P92%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DqBZtaszLHM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=qBZtaszLHM&sp_cr=ZAZ#customerReviews
+                    - text: "60"
+                  - 'link "-47% ₹9,019.00 M.R.P: ₹16,999.00 M.R.P: ₹16,999.00" [ref=e1188] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA1OTM2OTc3NjYwMzI6Ojo6&url=%2Fdp%2FB09VDM2P92%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09VDM2P92%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DqBZtaszLHM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=qBZtaszLHM&sp_cr=ZAZ
+                    - text: "-47%"
+                    - generic [ref=e1189]:
+                      - generic [ref=e1190]: ₹9,019.00
+                      - generic [ref=e1191]:
+                        - text: ₹
+                        - generic [ref=e1192]:
+                          - text: 9,019
+                          - generic [ref=e1193]: .
+                        - text: "00"
+                    - generic [ref=e1194]: "M.R.P: ₹16,999.00"
+                    - generic [ref=e1195]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1196]:
+                        - generic [ref=e1197]: ₹16,999.00
+                        - text: ₹16,999.00
+              - listitem [ref=e1198]:
+                - generic [ref=e1199]:
+                  - link "AsiaHorse ProGen ARGB NVMe M.2 SSD Heatsink – Aluminium Alloy Cooler with RGB LED & 3 Thermal Pads for M.2 2280 NVMe SSD (Grey)" [ref=e1200] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwODM0MjEwNzI2MzI6Ojo6&url=%2Fdp%2FB09B6938TH%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09B6938TH%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DN1m4uoJiSL%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=N1m4uoJiSL&sp_cr=ZAZ
+                    - img [ref=e1203]
+                    - generic [ref=e1204]: AsiaHorse ProGen ARGB NVMe M.2 SSD Heatsink – Aluminium Alloy Cooler with RGB LED &...
+                  - link "4.1 out of 5 stars 88 ratings" [ref=e1206] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwODM0MjEwNzI2MzI6Ojo6&url=%2Fdp%2FB09B6938TH%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09B6938TH%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DN1m4uoJiSL%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=N1m4uoJiSL&sp_cr=ZAZ#customerReviews
+                    - text: "88"
+                  - 'link "-35% ₹1,299.00 M.R.P: ₹1,999.00 M.R.P: ₹1,999.00" [ref=e1209] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwODM0MjEwNzI2MzI6Ojo6&url=%2Fdp%2FB09B6938TH%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09B6938TH%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DN1m4uoJiSL%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=N1m4uoJiSL&sp_cr=ZAZ
+                    - text: "-35%"
+                    - generic [ref=e1210]:
+                      - generic [ref=e1211]: ₹1,299.00
+                      - generic [ref=e1212]:
+                        - text: ₹
+                        - generic [ref=e1213]:
+                          - text: 1,299
+                          - generic [ref=e1214]: .
+                        - text: "00"
+                    - generic [ref=e1215]: "M.R.P: ₹1,999.00"
+                    - generic [ref=e1216]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1217]:
+                        - generic [ref=e1218]: ₹1,999.00
+                        - text: ₹1,999.00
+              - listitem [ref=e1219]:
+                - generic [ref=e1220]:
+                  - link "Thermalright Peerless Assassin 120 SE CPU Air Cooler, Dual Tower 6 Heat Pipe, Dual 120mm TL-C12C PWM CPU Fan, for AMD AM4/AM5/Intel LGA 1700/1150/1151/1200, AGHP Technology, Aluminium Heatsink Cover" [ref=e1221] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA4MDQ0MDE3MzMxMzI6Ojo6&url=%2Fdp%2FB09LGY38L4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB09LGY38L4%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DVm1m8zSXTh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=Vm1m8zSXTh&sp_cr=ZAZ
+                    - img [ref=e1224]
+                    - generic [ref=e1225]: Thermalright Peerless Assassin 120 SE CPU Air Cooler, Dual Tower 6 Heat Pipe, Dual ...
+                  - link "4.7 out of 5 stars 2,927 ratings" [ref=e1227] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA4MDQ0MDE3MzMxMzI6Ojo6&url=%2Fdp%2FB09LGY38L4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB09LGY38L4%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DVm1m8zSXTh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=Vm1m8zSXTh&sp_cr=ZAZ#customerReviews
+                    - text: 2,927
+                  - 'link "-46% ₹5,399.00 M.R.P: ₹9,999.00 M.R.P: ₹9,999.00" [ref=e1230] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA4MDQ0MDE3MzMxMzI6Ojo6&url=%2Fdp%2FB09LGY38L4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB09LGY38L4%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DVm1m8zSXTh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=Vm1m8zSXTh&sp_cr=ZAZ
+                    - text: "-46%"
+                    - generic [ref=e1231]:
+                      - generic [ref=e1232]: ₹5,399.00
+                      - generic [ref=e1233]:
+                        - text: ₹
+                        - generic [ref=e1234]:
+                          - text: 5,399
+                          - generic [ref=e1235]: .
+                        - text: "00"
+                    - generic [ref=e1236]: "M.R.P: ₹9,999.00"
+                    - generic [ref=e1237]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1238]:
+                        - generic [ref=e1239]: ₹9,999.00
+                        - text: ₹9,999.00
+                  - link "Save 2% with coupon" [ref=e1241] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDA4MDQ0MDE3MzMxMzI6Ojo6&url=%2Fdp%2FB09LGY38L4%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB09LGY38L4%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DVm1m8zSXTh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=Vm1m8zSXTh&sp_cr=ZAZ
+                    - generic [ref=e1242]:
+                      - generic [ref=e1243]: Save 2%
+                      - text: with coupon
+              - listitem [ref=e1244]:
+                - generic [ref=e1245]:
+                  - link "DZK 60W Professional Soldering Iron (Ideal for Soldering Iron Kit Set) - 60 Watt High Power Soldering Machine | Adjustable Temp Solder Iron Gun for Mobile Repairing" [ref=e1246] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwMzUzNzQ1MzEwMzI6Ojo6&url=%2Fdp%2FB0BVRLXJ8W%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BVRLXJ8W%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DDCt9a2z6rs%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=DCt9a2z6rs&sp_cr=ZAZ
+                    - img [ref=e1249]
+                    - generic [ref=e1250]: DZK 60W Professional Soldering Iron (Ideal for Soldering Iron Kit Set) - 60 Watt Hi...
+                  - link "3.8 out of 5 stars 1,389 ratings" [ref=e1252] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwMzUzNzQ1MzEwMzI6Ojo6&url=%2Fdp%2FB0BVRLXJ8W%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BVRLXJ8W%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DDCt9a2z6rs%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=DCt9a2z6rs&sp_cr=ZAZ#customerReviews
+                    - text: 1,389
+                  - link "Limited time deal" [ref=e1254] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwMzUzNzQ1MzEwMzI6Ojo6&url=%2Fdp%2FB0BVRLXJ8W%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BVRLXJ8W%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DDCt9a2z6rs%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=DCt9a2z6rs&sp_cr=ZAZ
+                    - generic [ref=e1256]: Limited time deal
+                  - 'link "-75% ₹249.00 M.R.P: ₹999.00 M.R.P: ₹999.00" [ref=e1258] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDEwMzUzNzQ1MzEwMzI6Ojo6&url=%2Fdp%2FB0BVRLXJ8W%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BVRLXJ8W%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DDCt9a2z6rs%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=DCt9a2z6rs&sp_cr=ZAZ
+                    - text: "-75%"
+                    - generic [ref=e1259]:
+                      - generic [ref=e1260]: ₹249.00
+                      - generic [ref=e1261]:
+                        - text: ₹
+                        - generic [ref=e1262]:
+                          - text: "249"
+                          - generic [ref=e1263]: .
+                        - text: "00"
+                    - generic [ref=e1264]: "M.R.P: ₹999.00"
+                    - generic [ref=e1265]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1266]:
+                        - generic [ref=e1267]: ₹999.00
+                        - text: ₹999.00
+              - listitem [ref=e1268]:
+                - generic [ref=e1269]:
+                  - link "7SEVEN® SMPS 12v Power Supply 150w Weather Proof Rainproof Suitable for LeD Signage, Strip Light, Decorate Lite, Surveillance CCTV Camera & Industrial Automation Machine and Much More" [ref=e1270] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDAxNDE1MDYxNDgxMzI6Ojo6&url=%2Fdp%2FB0CTK14VP8%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CTK14VP8%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DOWE04n0qup%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OWE04n0qup&sp_cr=ZAZ
+                    - img [ref=e1273]
+                    - generic [ref=e1274]: 7SEVEN® SMPS 12v Power Supply 150w Weather Proof Rainproof Suitable for LeD…
+                  - link "4.1 out of 5 stars 132 ratings" [ref=e1276] [cursor=pointer]:
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDAxNDE1MDYxNDgxMzI6Ojo6&url=%2Fdp%2FB0CTK14VP8%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CTK14VP8%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DOWE04n0qup%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OWE04n0qup&sp_cr=ZAZ#customerReviews
+                    - text: "132"
+                  - generic [ref=e1278]:
+                    - link "Amazon's Choice":
+                      - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDAxNDE1MDYxNDgxMzI6Ojo6&url=%2Fdp%2FB0CTK14VP8%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CTK14VP8%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DOWE04n0qup%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OWE04n0qup&sp_cr=ZAZ
+                      - generic [ref=e1280] [cursor=pointer]: Amazon's Choice
+                  - 'link "-40% ₹599.00 M.R.P: ₹999.00 M.R.P: ₹999.00" [ref=e1282] [cursor=pointer]':
+                    - /url: /sspa/click?ie=UTF8&spc=MToyNzAwNzQ5OTI5NzIzMTYxOjE3NzkyNzc4NzE6c3BfZGV0YWlsMjozMDAxNDE1MDYxNDgxMzI6Ojo6&url=%2Fdp%2FB0CTK14VP8%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CTK14VP8%26pd_rd_w%3D9nK3C%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DPBRKEAP6Z4C67MCQKJSJ%26pd_rd_wg%3DR4sCy%26pd_rd_r%3D9ec89c73-f074-4dd6-a3c1-c0ee1fea16b4%26aref%3DOWE04n0qup%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OWE04n0qup&sp_cr=ZAZ
+                    - text: "-40%"
+                    - generic [ref=e1283]:
+                      - generic [ref=e1284]: ₹599.00
+                      - generic [ref=e1285]:
+                        - text: ₹
+                        - generic [ref=e1286]:
+                          - text: "599"
+                          - generic [ref=e1287]: .
+                        - text: "00"
+                    - generic [ref=e1288]: "M.R.P: ₹999.00"
+                    - generic [ref=e1289]:
+                      - text: "M.R.P:"
+                      - generic [ref=e1290]:
+                        - generic [ref=e1291]: ₹999.00
+                        - text: ₹999.00
+      - generic [ref=e1294]:
+        - iframe [ref=e1295]:
+          - generic [ref=f2e4]:
+            - generic [ref=f2e5]: Sponsored Ad. Product image. 7SEVEN® SMPS 12v Power Supply 50amp 600w Weather Proof Rainproof Suitable for LeD Signage, Strip Light, Decorate Lite, Surveillance CCTV Camera & Industrial Automation Machine and Much More 1632 Shop now
+            - link "Click to navigate to product detail page" [ref=f2e8] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/RDygm3-MemjQodAnHI32BsoAAAGeRTm5EwoAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCc4x--/clv1c_ek-gg_XXLbTCjRDuMVr3DJum3sgAYPPZWCO500cltAZNOsZwz0ZZLjMqbRcAw-8HW6mBjnKu2jDu40rmuVpA81gPwSw8_7GJZ7glS2Fp3Me08wHjeUG55FXr76kAowZmSVRMeFdgWhfkmFhZOTpDGhDfqZU8F1L1EULuuwbyT76v30KqU0jn3gqur5WV3I-UxSdKEWMZ0HYAwLr18A3D7jeaxtg5EHYiCIcWzQsC1vyzbFzXTLADPDY5hv3QmYa2AnBTvVbsueMkdXL_KFeas7EeZjKJonHVyk0IMCrQY_E0oJ6z3-xh32Y2qmNl7EanHPEz2ecz0J-CkuIviinxJaaWalzfw0-ioeVCTYx2_QapOX9Tc6QGB3hrdiY2CD1mj4Fpi48qgOA9auGRuumhIhaBv1t6nqwOWorjakjlod8SBf53IFdvOpzhf76qEy7dYgvOVVGM6XGHK3UqlYdy_F730QGGovAp-aQhr6GXx8P7tPBVgsiXIxGdfmCJI1bm_Nl1XiCFwkI2vEwuePXtKGXSU_WLxgsRqMnmEJsTUDVq8OXjku-YeUPdNxFe3ExcpGmM0Qxws-WgtUGzUnmifhJE1HWVE4wCq8h2d8uNcE-FeefRLAgTMV-4tbAT11tb6681MbMNkA5-_t3qF_-5-vBI6DkpBfG3rso3D2c0kGiLAC7ahfzTUSKC2cFk8fDa-krgnD-svLdlBlZm0oUhb2eVUffyHPkKovFazCI4cqgzMp0NmJ7yC8N8Mi8zxNC5YlGv_XcQlT7vw4edYfiRhl3QH7-x4JFatRNJ9mLkpWt6EcMeAOFtrCdzvAQ9wjVK53IUxJKb3PzZRlM7Xqah_nHKrdkOiOxhoximwBQErLcpA_ObZ8whBLCCKkXoGGT_weP69Uj9B7sjVgjbZd-5E-nx3X4esBzzk_9sXyZ5uJndai0yG6-Y1Pae5VFNVEEYizI1PLqbZF6iMzF8W4_0Te8Fiq-tX7N0nfN4WmssptZO_CTTyg/http://www.amazon.in/dp/B0CT2V5SBB/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=xlG62zodZ1
+            - img "Product image" [ref=f2e13]
+        - button "Leave feedback on Sponsored advertisement" [ref=e1297] [cursor=pointer]:
+          - generic [ref=e1298]: Sponsored
+      - generic "Top reviews" [ref=e1302]:
+        - separator [ref=e1303]
+        - generic [ref=e1305]:
+          - generic [ref=e1306]:
+            - generic [ref=e1311]:
+              - heading "Customer reviews" [level=2] [ref=e1313]
+              - generic [ref=e1315]:
+                - generic [ref=e1317]:
+                  - generic [ref=e1320]: 5 out of 5 stars
+                  - generic [ref=e1323]: 5 out of 5
+                - generic [ref=e1324]: 1 global rating
+              - list [ref=e1329]:
+                - listitem [ref=e1330]:
+                  - link "100 percent of reviews have 5 stars" [ref=e1333] [cursor=pointer]:
+                    - /url: /product-reviews/B0GRCB7FZJ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1334]: 5 star
+                    - progressbar [ref=e1336]
+                    - generic [ref=e1337]: 100%
+                - listitem [ref=e1338]:
+                  - generic "0 percent of reviews have 4 stars" [ref=e1341]:
+                    - generic [ref=e1342]: 4 star
+                    - progressbar [ref=e1344]
+                    - generic [ref=e1345]: 0%
+                - listitem [ref=e1346]:
+                  - generic "0 percent of reviews have 3 stars" [ref=e1349]:
+                    - generic [ref=e1350]: 3 star
+                    - progressbar [ref=e1352]
+                    - generic [ref=e1353]: 0%
+                - listitem [ref=e1354]:
+                  - generic "0 percent of reviews have 2 stars" [ref=e1357]:
+                    - generic [ref=e1358]: 2 star
+                    - progressbar [ref=e1360]
+                    - generic [ref=e1361]: 0%
+                - listitem [ref=e1362]:
+                  - generic "0 percent of reviews have 1 stars" [ref=e1365]:
+                    - generic [ref=e1366]: 1 star
+                    - progressbar [ref=e1368]
+                    - generic [ref=e1369]: 0%
+              - button "How are ratings calculated?" [ref=e1374] [cursor=pointer]: How are ratings calculated?
+            - separator [ref=e1376]
+            - separator [ref=e1377]
+            - generic [ref=e1380]:
+              - iframe [ref=e1381]:
+                - generic [ref=f3e4]:
+                  - link "MIST MAKER 12 LED Industrial Incubator Humidifier Ultrasonic Mist Maker Fogger Water Fountain Pond Atomizer (auto Mist 1 pcs)" [ref=f3e5] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/REBpIRj0vrOcnWj3470xD9sAAAGeRTm5GgoAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB4qKM9/clv1c_ek8OM3GX57OOBXc7_aNgTefvvv9OZs48tB6ABMF_i2GB-jdSITHgbS_EOW7q7pXKxo7PPUW8pu7ZpdKwgrWK1-QJgvrKoqEZDqIoJXoLIOF7vqxI1tvU9302VDexD6S_1D5Yr6obIl-Aik1bq8px3MwfNH5H3_bN1lTiLN_QJMJ6mMn3vPoEHJFKAFfqMWQqD7UffRzfiJCevUGoEytgVwfFiQRXZy4SOysr_VHZ6_UtSnqY1n1ZtnoRc3GEOmqI9ooS8g86TuJl3IApBziApfcMsLU8E321XN92cDqfO02uTTLAkJvTucvfI1OOTsoP5qTQvLZlNiJk3cWQT5A7FXoVyiasUpYWIGrtkq_aLZ54nIsQGzGqAJB1qBZfiErs9coytnVp67E/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3OTE2OTQwMDIxNzgwMzk2OjE3NzkyNzc4NzE6c3BfY3JyX3NoYXJlZDozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk&aref=zoOMQ2mw6B&sp_cr=ZAZ
+                  - img "MIST MAKER 12 LED Industrial Incubator Humidifier Ultrasonic Mist Maker Fogger Water Fountain Pond Atomizer (auto Mist 1 pcs)" [ref=f3e9]
+                  - generic [ref=f3e11]: MIST MAKER 12 LED Industrial Incubator Humidifier Ultrasonic Mist Maker Fogger Water Fountain Pond Atomizer (auto Mist 1 pcs)
+                  - generic [ref=f3e12]:
+                    - generic [ref=f3e13]:
+                      - link "178" [ref=f3e15] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/REBpIRj0vrOcnWj3470xD9sAAAGeRTm5GgoAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB4qKM9/clv1c_ek8OM3GX57OOBXc7_aNgTefvvv9OZs48tB6ABMF_i2GB-jdSITHgbS_EOW7q7pXKxo7PPUW8pu7ZpdKwgrWK1-QJgvrKoqEZDqIoJXoLIOF7vqxI1tvU9302VDexD6S_1D5Yr6obIl-Aik1bq8px3MwfNH5H3_bN1lTiLN_QJMJ6mMn3vPoEHJFKAFfqMWQqD7UffRzfiJCevUGoEytgVwfFiQRXZy4SOysr_VHZ6_UtSnqY1n1ZtnoRc3GEOmqI9ooS8g86TuJl3IApBziApfcMsLU8E321XN92cDqfO02uTTLAkJvTucvfI1OOTsoP5qTQvLZlNiJk3cWQT5A7FXoVyiasUpYWIGrtkq_aLZ54nIsQGzGqAJB1qBZfiErs9coytnVp67E/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3OTE2OTQwMDIxNzgwMzk2OjE3NzkyNzc4NzE6c3BfY3JyX3NoYXJlZDozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk&aref=zoOMQ2mw6B&sp_cr=ZAZ#customerReviews
+                        - text: "178"
+                      - generic [ref=f3e17]: ₹480.00
+                    - link "Shop now" [ref=f3e21] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/REBpIRj0vrOcnWj3470xD9sAAAGeRTm5GgoAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB4qKM9/clv1c_ek8OM3GX57OOBXc7_aNgTefvvv9OZs48tB6ABMF_i2GB-jdSITHgbS_EOW7q7pXKxo7PPUW8pu7ZpdKwgrWK1-QJgvrKoqEZDqIoJXoLIOF7vqxI1tvU9302VDexD6S_1D5Yr6obIl-Aik1bq8px3MwfNH5H3_bN1lTiLN_QJMJ6mMn3vPoEHJFKAFfqMWQqD7UffRzfiJCevUGoEytgVwfFiQRXZy4SOysr_VHZ6_UtSnqY1n1ZtnoRc3GEOmqI9ooS8g86TuJl3IApBziApfcMsLU8E321XN92cDqfO02uTTLAkJvTucvfI1OOTsoP5qTQvLZlNiJk3cWQT5A7FXoVyiasUpYWIGrtkq_aLZ54nIsQGzGqAJB1qBZfiErs9coytnVp67E/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3OTE2OTQwMDIxNzgwMzk2OjE3NzkyNzc4NzE6c3BfY3JyX3NoYXJlZDozMDA2MDM4OTYwODI3MzI6Ojo6&url=%2Fdp%2FB0DFWN3526%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26aref%3DzoOMQ2mw6B%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk&aref=zoOMQ2mw6B&sp_cr=ZAZ
+              - button "Leave feedback on Sponsored advertisement" [ref=e1383] [cursor=pointer]:
+                - generic [ref=e1384]: Sponsored
+          - generic [ref=e1397]: There are 0 customer reviews.
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1402]:
+    - button "Back to top" [ref=e1403] [cursor=pointer]:
+      - generic [ref=e1404]: Back to top
+    - generic [ref=e1405]:
+      - generic [ref=e1406]:
+        - heading "Get to Know Us" [level=6] [ref=e1407]
+        - list [ref=e1408]:
+          - listitem [ref=e1409]:
+            - link "About Amazon" [ref=e1410] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1411]:
+            - link "Careers" [ref=e1412] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1413]:
+            - link "Press Releases" [ref=e1414] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1415]:
+            - link "Amazon Science" [ref=e1416] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1418]:
+        - heading "Connect with Us" [level=6] [ref=e1419]
+        - list [ref=e1420]:
+          - listitem [ref=e1421]:
+            - link "Facebook" [ref=e1422] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1423]:
+            - link "Twitter" [ref=e1424] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1425]:
+            - link "Instagram" [ref=e1426] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1428]:
+        - heading "Make Money with Us" [level=6] [ref=e1429]
+        - list [ref=e1430]:
+          - listitem [ref=e1431]:
+            - link "Sell on Amazon" [ref=e1432] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1433]:
+            - link "Sell under Amazon Accelerator" [ref=e1434] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1435]:
+            - link "Protect and Build Your Brand" [ref=e1436] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1437]:
+            - link "Amazon Global Selling" [ref=e1438] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1439]:
+            - link "Supply to Amazon" [ref=e1440] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1441]:
+            - link "Become an Affiliate" [ref=e1442] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1443]:
+            - link "Fulfilment by Amazon" [ref=e1444] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1445]:
+            - link "Advertise Your Products" [ref=e1446] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1447]:
+            - link "Amazon Pay on Merchants" [ref=e1448] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1450]:
+        - heading "Let Us Help You" [level=6] [ref=e1451]
+        - list [ref=e1452]:
+          - listitem [ref=e1453]:
+            - link "Your Account" [ref=e1454] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1455]:
+            - link "Returns Centre" [ref=e1456] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1457]:
+            - link "Recalls and Product Safety Alerts" [ref=e1458] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1459]:
+            - link "100% Purchase Protection" [ref=e1460] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1461]:
+            - link "Amazon App Download" [ref=e1462] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1463]:
+            - link "Help" [ref=e1464] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1466]:
+      - link "Amazon India Home" [ref=e1469] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1472]:
+        - generic [ref=e1473]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1474] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1476]: English
+          - button "Expand to Change Language or Country" [ref=e1477] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1478] [cursor=pointer]:
+          - generic [ref=e1480]: India
+    - generic "More on Amazon" [ref=e1481]:
+      - generic "More on Amazon" [ref=e1482]:
+        - list [ref=e1483]:
+          - listitem [ref=e1484]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1485] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1486]
+              - generic [ref=e1487]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1488]
+          - listitem [ref=e1489]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1490] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1491]
+              - generic [ref=e1492]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1493]
+          - listitem [ref=e1494]:
+            - link "Audible Download Audio Books" [ref=e1495] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1496]
+              - generic [ref=e1497]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1498]
+          - listitem [ref=e1499]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1500] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1501]
+              - generic [ref=e1502]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1503]:
+          - listitem [ref=e1504]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1505] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1506]
+              - generic [ref=e1507]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1508]
+          - listitem [ref=e1509]:
+            - link "Amazon Business Everything For Your Business" [ref=e1510] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1511]
+              - generic [ref=e1512]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1513]
+          - listitem [ref=e1514]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e1515] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e1516]
+              - generic [ref=e1517]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e1518]
+          - listitem [ref=e1519]
+    - generic [ref=e1520]:
+      - list [ref=e1521]:
+        - listitem [ref=e1522]:
+          - link "Conditions of Use & Sale" [ref=e1523] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1524]:
+          - link "Privacy Notice" [ref=e1525] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1526]:
+          - link "Interest-Based Ads" [ref=e1527] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1528]: © 1996-2026, Amazon.com, Inc. or its affiliates
